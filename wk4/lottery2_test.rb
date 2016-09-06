@@ -2,7 +2,7 @@ require "minitest/autorun"
 require_relative "lottery2.rb"
 
 class TestLotteryNumbers <Minitest::Test	
-	def test_1_off_returns_false
+	def test_matching_ticket_returns_false
 		my_ticket = "4567"
         winning_tickets = ["4567"]
         assert_equal(false, off(my_ticket, winning_tickets))
