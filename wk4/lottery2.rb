@@ -7,7 +7,9 @@ def off(my_ticket, winning_tickets)
 		end
 		i += 1
 	end
-		if c == 4
+		if c == 3
+			true
+		else
 			false
 		end
 end
