@@ -5,7 +5,7 @@ class TestLotteryNumbers <Minitest::Test
 	def test_1_off_returns_false
 		my_ticket = "4567"
         winning_tickets = ["4567"]
-        assert_equal(false, big_lotto(my_ticket, winning_tickets))
+        assert_equal(false, off(my_ticket, winning_tickets))
     end
 
     # def test_ticket_off_by_1_returns_true
