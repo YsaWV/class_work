@@ -14,10 +14,4 @@ class TestLotteryNumbers <Minitest::Test
 		assert_equal([], grand_lotto(winners, my_num))
 	end
 
-	def test_return_winners
-		winners = ["1234", "2567", "1984", "3756"]
-		my_num = "2567"
-		assert_equal(["2567"], grand_lotto(winners, my_num))
-	end
-
 end
