@@ -17,6 +17,7 @@ end
 
 
 
+
 ###### just messin about ######
 
 # class TestLotteryNumbers <Minitest::Test	
